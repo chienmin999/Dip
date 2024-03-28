@@ -42,12 +42,12 @@ function resizeYesButton() {
 
 function generateMessage(noCount) {
   const messages = [
-    "Có chứ hâm à",
-    "Anh thích mờ",
-    "Em giận anh hở :((",
-    "Cạnh em anh vui mà , vui cực ý",
-    "Nhớ em lắm ý",
-    "Nhờ , ny yêu của anh nhờ",
+    "anh nói thật à",
+    "Chắc chắn chứ",
+    "100%:((",
+    "Bên em a vui đúng chứ",
+    "Nói thiệc ha",
+    "đó là sự thật",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
